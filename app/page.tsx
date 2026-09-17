@@ -2,7 +2,7 @@ const helpCards = [
   {
     title: "Adults",
     image:
-      "images/adult.png.png",
+      "/images/adult.png.png",
     text: "Therapy for adults navigating anxiety, panic, trauma, burnout, perfectionism, and the pressures of everyday life. Sessions provide a supportive space to understand your experiences and develop healthier ways of coping.",
   },
   {
@@ -14,7 +14,7 @@ const helpCards = [
   {
     title: "Children & Teens",
     image:
-      "images/child.png.png",
+      "/images/child.png.png",
     text: "A supportive space for children and teens experiencing anxiety, emotional challenges, stress, or difficulties navigating relationships, school, and personal growth.",
   },
 ];
@@ -103,7 +103,7 @@ export default function Home() {
           className="min-h-[440px] bg-cover bg-center lg:min-h-full"
           style={{
             backgroundImage:
-              "url('images/family.png.png')",
+              "url('/images/family.png.png')",
           }}
         />
 
@@ -166,7 +166,7 @@ export default function Home() {
           className="min-h-[500px] bg-cover bg-center lg:min-h-full"
           style={{
             backgroundImage:
-              "url('images/quatebanner.png')",
+              "url('/images/quatebanner.png')",
           }}
         />
       </section>
@@ -202,7 +202,7 @@ export default function Home() {
         className="relative flex min-h-[470px] items-center bg-cover bg-center px-8 py-24 md:px-16 lg:px-24"
         style={{
           backgroundImage:
-            "url('images/quatebanner.png')",
+            "url('/images/quatebanner.png')",
         }}
       >
         <div className="absolute inset-0 bg-[#1d2526]/45" />
@@ -270,7 +270,7 @@ export default function Home() {
             className="min-h-[360px] bg-cover bg-center"
             style={{
               backgroundImage:
-                "url('images/office1.jpeg')",
+                "url('/images/office1.jpeg')",
             }}
           />
         </div>
@@ -313,7 +313,7 @@ export default function Home() {
             className="hidden h-[600px] bg-cover bg-center lg:block"
             style={{
               backgroundImage:
-                "url('images/Dr. Maya Reynolds.png')",
+                "url('/images/Dr. Maya Reynolds.png')",
             }}
           />
 
@@ -351,7 +351,7 @@ export default function Home() {
             className="h-[390px] bg-cover bg-center"
             style={{
               backgroundImage:
-                "url('images/office2.jpeg')",
+                "url('/images/office2.jpeg')",
             }}
           />
         </div>
@@ -394,7 +394,7 @@ export default function Home() {
               className="h-[300px] bg-cover bg-center md:h-[430px]"
               style={{
                 backgroundImage:
-                  "url('images/office1.jpeg')",
+                  "url('/images/office1.jpeg')",
               }}
             />
 
@@ -402,7 +402,7 @@ export default function Home() {
               className="h-[300px] bg-cover bg-center md:mt-16 md:h-[430px]"
               style={{
                 backgroundImage:
-                  "url('images/office2.jpeg')",
+                  "url('/images/office2.jpeg')",
               }}
             />
           </div>
